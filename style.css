@@ -1,4 +1,38 @@
-h1 {
-  font-size: 40px;
-  text-align: center;
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-title {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+nav span {
+  color: #fd6e0a;
+}
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 50px;
+  color: #474747;
+  font-size: 20px;
+}
+.nav-btn {
+  cursor: pointer;
+  border: none;
+  background-color: #fd6e0a;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
 }
