@@ -1,11 +1,15 @@
 body {
   font-family: "Space Grotesk", sans-serif;
 }
-
+header {
+  background-color: #fff8f3;
+}
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 130px;
+  /* padding: 50px 30px 30px 150px; */
 }
 .nav-title {
   font-size: 45px;
@@ -36,3 +40,27 @@ ul li a {
   border-radius: 5px;
   padding: 18px 32px;
 }
+
+/* starting design banner */
+.banner-container {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 130px;
+}
+.banner button {
+  margin-right: 30px;
+}
+.banner button:last-child {
+  background-color: #fff;
+  color: #fd6e0a;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+}
+.banner button:last-child:hover {
+  background-color: #fd6e0a;
+  color: #fff;
+}
+.banner-img img {
+  width: 400px;
+}
+/* ending design banner */
