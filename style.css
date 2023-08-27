@@ -101,6 +101,7 @@ main {
   padding-top: 100px;
 }
 .section-text {
+  margin-bottom: 50px;
   color: #757575;
   text-align: center;
   font-size: 18px;
@@ -124,4 +125,29 @@ main {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px; /* 150% */
+}
+.skills-container {
+  margin-bottom: 60px;
+}
+.skills {
+  display: flex;
+  gap: 25px;
+}
+.skill {
+  padding: 15px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title h3 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-text {
+  /* width: 190px; */
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
